@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table width=95% border="1" align="center" style="font-size:15px;">
+            <tr>
+                <td width="17%">
+					<b>
+						<u>
+							Zewnętrzny arkusz stylów
+						</u>
+					</b>
+				</td>
+				<td style="font-size:12px;">&lt;head&gt;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt;<br>
+					&lt;/head&gt;
+				</td>
+            </tr>
+			<!----><!----><!----><!---->
+			<tr>
+				<td>
+					<b>
+						<u>
+							Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii)
+						</u>
+					</b>
+				</td>
+				<td style="font-size:12px;">
+					&lt;selektor style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/selektor&gt;
+				</td>
+			</tr>
+			<!----><!----><!----><!---->
+			<tr>
+				<td>
+					<b>
+						<u>
+							Wewnętrzny arkusz stylów
+						</u>
+					</b>
+				</td>
+				<td style="font-size:12px;">
+					&lt;head&gt;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;style type="text/css"&gt;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br>
+					&lt;/head&gt;<br>
+				</td>
+			</tr>
+			<!----><!----><!----><!---->
+			<tr>
+				<td>
+					<b>
+						<u>
+							Alternatywny arkusz stylów
+						</u>
+					</b>
+				</td>
+				<td style="font-size:12px;">
+					&lt;head><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /&gt;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /&gt;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /&gt;<br>
+					&lt;/head><br>
+				</td>
+			</tr>
+			<!----><!----><!----><!---->
+			<tr>
+				<td>
+					<b>
+						<u>
+							Import arkusza stylów
+						</u>
+					</b>
+				</td>
+				<td style="font-size:12px;">
+					&lt;style type="text/css"&gt;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@import url(adres zewnętrznego arkusza stylów);<br>
+					&lt;/style&gt;<br>
+				</td>
+			</tr>
+        </table>
+    </body>
+</html>

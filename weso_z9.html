@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>styl zewnetrzny</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <LINK href="weso_z9.css" rel="stylesheet" type="text/CSS">
+    </head>
+    <body bgcolor="silver">
+        <ol>
+            <li>
+                <h1>Składnia teoretyczna</h1><br>
+                <fieldset style="width:1px;">
+                        <pre>
+&lt;head>
+    (...)
+    &lt;link rel="Stylesheet" type="text/css" href="style.css" />
+    (...)
+&lt;/head>
+                        </pre>
+                </fieldset>
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz 
+                    ile razy może on występować w dokumencie, jako podłączenie stylu CSS?
+                </h1>
+                    można dołączyć dowolną liczbę zewnętrznych arkuszy stylów<br>
+                    - każdy jako osobny element &lt;link rel="Stylesheet" />. 
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Jak jest najprostsza forma wstawiania stylu zewnętrznego
+                </h1>
+                wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy 
+                znacznikami &lt;head> a &lt;/head>), przedstawioną poniżej linijkę:<br>
+                <fieldset style="width:relative;display:inline-block;">
+                    &lt;link rel="Stylesheet" type="text/css" href="style.css" />
+                </fieldset>
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad 
+                    musi być zachowana przy większej ilości dołączanych styli?
+                </h1>
+                można dołączyć dowolną liczbę zewnętrznych arkuszy stylów<br>
+                    - każdy jako osobny element &lt;link rel="Stylesheet" />.
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style 
+                    są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.
+                </h1>
+                W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?
+                </h1>
+                Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i<br>
+                edytowania wystarczy zwykły edytor tekst. 
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?
+                </h1>
+                Należy jedynie pamiętać, że 
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?
+                </h1>
+                plik będący zewnętrznym arkuszem stylów musi mieć
+                rozszerzenie *.css
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?
+                </h1>
+                <ol type="circle">
+                    <li>
+                        1)wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy. 
+                    </li>
+                    <!---->
+                    <li>
+                        2) jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich 
+                        stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez 
+                        konieczności zmiany każdej strony osobno.
+                    </li>
+                </ol>
+            </li>
+            <!----><!---->
+            <li>
+                <h1>
+                    Uwagi na temat pisania w CSS.
+                </h1>
+            </li>
+        </ol>
+    </body>
+</html>

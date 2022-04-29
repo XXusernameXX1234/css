@@ -1,0 +1,17 @@
+p
+{
+	font-size:20mm;
+	color:rgb(33, 150, 243);
+}
+p:lang(pl)
+{
+	font-weight:bold;
+	color:rgb(144, 238, 144);
+	font-size:27mm;
+}
+p:lang(en)
+{
+	font-size:34mm;
+	font-style:italic;
+	color:rgb(255, 0, 0);
+}

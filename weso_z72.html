@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+<style>
+td {
+padding:7px;
+}
+</style>
+<head>
+<body>
+
+	<table border="1" style="border-collapse:collapse;">
+		<tbody>
+		<tr>
+			<td>
+				Kolor tła
+			</td>
+			<td>
+				Dzięki temu poleceniu można ustalić kolor tła dla danego elementu.
+				<br><br>
+				selektor {background-color: kolor;}<br>body{background-color:silver;}
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Tło obrazkowe</td>
+			<td>
+				Dzięki temu poleceniu można ustalić tło obrazkowe dla danego elementu.<br>
+				Wyraz selektor ma zastosowanie do wszystkich elementów, którym chcemy nadać tło obrazka.
+				<br><br>
+				selektor{background-image: url(adres);}
+				<br>
+				background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Powtarzanie tła</td>
+			<td>
+			Polecenie powoduje powtarzanie w specyficzny sposób graficznego tła elementu.
+			<br>
+			<br>
+			selektor {background-repeat: powtarzanie;}
+			<br>
+			body {background-repeat:repeat;}
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Pozycja tła</td>
+			<td>
+			a pomocą właściwości background-position możemy określić<br>
+			względem krawędzi obszaru pozycjonowania pozycję początkową <br>
+			obrazka tworzącego tło obrazkowe interesującego nas elementu HTML.
+			<br><br>
+			selektor {background-position: pozycja;}
+			div {background-position:30px 60px;}
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Zaczepienie tła</td>
+			<td>
+			Za pomocą właściwości background-attachment możemy określić<br>
+			obszar, do którego powinien zostać zaczepiony obrazek tworzący <br>
+			tło obrazkowe interesującego nas elementu HTML.
+			<br><br>
+			selektor {background-attachment: zaczepienie;}
+			<br>
+			biv {background-attachment:fixed;}
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Łączenie atrybutów tła</td>
+			<td>
+			Najwygodniejszym sposobem definiowania tła jest <br>
+			oczywiście wykorzystanie tzw. definicji mieszanej, w której <br>
+			nie powtarza się całego zestawu "zaklęć" background-repeat, background-position itd.
+			<br><br>
+			selektor {background: wartości atrybutów;}
+			<br>
+			td {background: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg") no-repeat bottom right}
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Gradient liniowy</td>
+			<td>
+			Gradient to wypełnienie tłem płynnym przejściu kilku kolorów.
+			<br><br>
+			selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) }
+			<br>
+			background {linear-gradient(#e66465, #9198e5);}
+			</td>
+		</tr>
+		<!---->
+		<tr>
+			<td>Gradient promienisty</td>
+			<td>
+			Gradient promienisty to tło o płynnym przejściem kilku kolorów,<br>
+			wywołując efekt trójwymiarowej kuli lub oświetlenia latarki.
+			<br><br>
+			selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }
+			<br>
+			background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
+<!--Wesołowski Mateusz-->
